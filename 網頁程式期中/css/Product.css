@@ -1,0 +1,46 @@
+body{
+    background-image: url(../img/who\ am\ i.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+} 
+.box{
+    width: 880px;
+    background-color: rgb(255, 251, 251);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 20px;
+    margin-left: 250px;
+    border-radius: 15px;
+    text-align: center;
+    opacity: 0.95;
+    
+
+    /*display: flex;
+    justify-content: center;/*讓區塊水平置中*/
+    /*align-items: center;/*讓區塊垂直置中*/
+    /*height: 100vh; /*把的高度設為與瀏覽器視窗同高，如果沒設定這一行，垂直置中不會有作用。*/
+}
+#main_menu{
+    list-style: none; 
+    padding: 0; 
+    text-align: center;
+    line-height:50px ;
+    background-color: rgb(255, 251, 251);
+    height: 50px;
+    opacity: 0.8;
+}
+#main_menu li{
+    display: inline-block;
+}
+#main_menu li a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px 25px;
+}
+#main_menu li a:hover{
+    color: brown;
+}
